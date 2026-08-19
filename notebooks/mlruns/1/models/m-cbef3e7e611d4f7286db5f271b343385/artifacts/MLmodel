@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/hp/Desktop/Travel_Analytics-MLOPs/notebooks/mlruns/1/models/m-cbef3e7e611d4f7286db5f271b343385/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-cbef3e7e611d4f7286db5f271b343385
+model_size_bytes: 1069236
+model_uuid: m-cbef3e7e611d4f7286db5f271b343385
+prompts: null
+run_id: ad7e6b4b13ef4c728ff475bb595820c1
+utc_time_created: '2026-08-19 08:59:15.033091'
